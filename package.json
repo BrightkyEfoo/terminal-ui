@@ -1,0 +1,19 @@
+{
+  "name": "@brightkyefoo/terminal-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.5.3"
+  },
+  "private": false
+}
