@@ -1,19 +1,25 @@
 {
   "name": "@brightkyefoo/terminal-ui",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "A simple library of ui components for terminal",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "test": "node dist/test.js"
   },
   "repository": {
     "type": "github",
-    "url": ""
+    "url": "https://github.com/BrightkyEfoo/terminal-ui"
   },
   "devDependencies": {
     "@types/node": "^22.7.5",
     "typescript": "^5.5.3"
   },
-  "private": false
+  "private": false,
+  "keywords": [
+    "terminal",
+    "CLI",
+    "UI",
+    "components"
+  ]
 }
